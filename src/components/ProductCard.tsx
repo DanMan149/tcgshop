@@ -6,6 +6,7 @@ import { useCart } from "@/lib/CartContext";
 export default function ProductCard({ product }: { product: Product }) {
   const { addItem } = useCart();
   const [added, setAdded] = useState(false);
+  const [imgError, setImgError] = useState(false);
 
   const handleAdd = () => {
     if (product.comingSoon || product.price === null) return;
@@ -17,12 +18,23 @@ export default function ProductCard({ product }: { product: Product }) {
   const formatPrice = (p: number | null) =>
     p === null ? "Coming Soon" : `Rs. ${p.toLocaleString("en-PK")}`;
 
+  const showImage = product.image && !imgError;
+
   return (
     <div className="product-card">
       {product.badge && <span className="product-badge">{product.badge}</span>}
 
       <div className="product-preview">
-        <div className="product-emoji">{product.emoji}</div>
+        {showImage ? (
+          <img
+            src={product.image}
+            alt={product.name}
+            className="product-image"
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div className="product-emoji">{product.emoji}</div>
+        )}
         <div className="filament-lines">
           {Array.from({ length: 8 }).map((_, i) => (
             <div key={i} className="filament-line" style={{ animationDelay: `${i * 0.12}s` }} />

@@ -5,8 +5,8 @@ export interface Product {
   category: string;
   description: string;
   badge?: string;
-  colors: string[];
   emoji: string;
+  image?: string;
   comingSoon?: boolean;
 }
 
@@ -19,8 +19,8 @@ export const products: Product[] = [
     category: "Display Stands",
     description: "Set of 8 mini tin stands plus an add-on base, so your mini tin collection stays organized and on display.",
     badge: "Best Seller",
-    colors: ["#E8392A", "#1A1F3A", "#FFD700", "#F8F8FF"],
     emoji: "🗂️",
+    image: "/products/mini-tin-stand-set.jpg",
   },
   {
     id: "universal-slab-stand",
@@ -28,8 +28,8 @@ export const products: Product[] = [
     price: 275,
     category: "Display Stands",
     description: "A versatile stand built to display any graded slab upright on your shelf or desk.",
-    colors: ["#1A1F3A", "#C8CDD8", "#FFD700"],
     emoji: "🏆",
+    image: "/products/universal-slab-stand.jpg",
   },
   {
     id: "psa-stand",
@@ -37,8 +37,8 @@ export const products: Product[] = [
     price: 100,
     category: "Display Stands",
     description: "A compact stand sized specifically for PSA-graded slabs.",
-    colors: ["#C8CDD8", "#1A1F3A"],
     emoji: "🎖️",
+    image: "/products/psa-stand.jpg",
   },
 
   // ── ETB Display Case ────────────────────────────
@@ -48,8 +48,8 @@ export const products: Product[] = [
     price: 650,
     category: "ETB Display Case",
     description: "The frame-only skeleton case for displaying your Elite Trainer Box — acrylic sold separately.",
-    colors: ["#1A1F3A", "#C8CDD8"],
     emoji: "📦",
+    image: "/products/etb-case-skeleton.jpg",
   },
   {
     id: "etb-case-no-acrylic",
@@ -57,8 +57,8 @@ export const products: Product[] = [
     price: 1700,
     category: "ETB Display Case",
     description: "Full-build ETB display case without the acrylic front panel.",
-    colors: ["#1A1F3A", "#E8392A", "#C8CDD8"],
     emoji: "🗃️",
+    image: "/products/etb-case-no-acrylic.jpg",
   },
   {
     id: "etb-case-with-acrylic",
@@ -67,8 +67,8 @@ export const products: Product[] = [
     category: "ETB Display Case",
     description: "The complete ETB display case with a crystal-clear acrylic front for full protection and visibility.",
     badge: "Popular",
-    colors: ["#1A1F3A", "#FFD700", "#C8CDD8"],
     emoji: "✨",
+    image: "/products/etb-case-with-acrylic.jpg",
   },
 
   // ── Graded Slab Bumpers ──────────────────────────
@@ -78,8 +78,8 @@ export const products: Product[] = [
     price: 100,
     category: "Graded Slab Bumpers",
     description: "Corner bumper protector designed to fit PSA graded slabs perfectly.",
-    colors: ["#E8392A", "#1A1F3A", "#FFD700", "#C8CDD8"],
     emoji: "🛡️",
+    image: "/products/psa-slab-bumper.jpg",
   },
   {
     id: "cgc-slab-bumper",
@@ -87,8 +87,8 @@ export const products: Product[] = [
     price: 100,
     category: "Graded Slab Bumpers",
     description: "Corner bumper protector designed to fit CGC graded slabs perfectly.",
-    colors: ["#1A1F3A", "#E8392A", "#FFD700", "#C8CDD8"],
     emoji: "🛡️",
+    image: "/products/cgc-slab-bumper.jpg",
   },
 
   // ── Mailers ──────────────────────────────────────
@@ -98,8 +98,8 @@ export const products: Product[] = [
     price: null,
     category: "Mailers",
     description: "Compact mailer built to safely ship up to 5 penny-sleeved cards.",
-    colors: ["#8890A8"],
     emoji: "✉️",
+    image: "/products/penny-sleeve-mailer-5.jpg",
     comingSoon: true,
   },
   {
@@ -108,8 +108,8 @@ export const products: Product[] = [
     price: 300,
     category: "Mailers",
     description: "Sturdy mailer that securely fits 2 top-loaded cards for safe shipping.",
-    colors: ["#1A1F3A", "#C8CDD8", "#FFD700"],
     emoji: "📬",
+    image: "/products/top-loader-mailer-2.jpg",
   },
   {
     id: "top-loader-mailer-4",
@@ -117,8 +117,8 @@ export const products: Product[] = [
     price: 425,
     category: "Mailers",
     description: "Sturdy mailer that securely fits 4 top-loaded cards for safe shipping.",
-    colors: ["#1A1F3A", "#C8CDD8", "#FFD700"],
     emoji: "📬",
+    image: "/products/top-loader-mailer-4.jpg",
   },
   {
     id: "graded-slab-mailer",
@@ -126,8 +126,8 @@ export const products: Product[] = [
     price: 500,
     category: "Mailers",
     description: "Heavy-duty mailer purpose-built to ship graded slabs without a scratch.",
-    colors: ["#1A1F3A", "#E8392A", "#C8CDD8"],
     emoji: "📦",
+    image: "/products/graded-slab-mailer.jpg",
   },
 ];
 

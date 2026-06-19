@@ -285,6 +285,13 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
   border-bottom: 1px solid var(--navy-border);
 }
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
 .product-emoji {
   font-size: 3.5rem;
   position: relative;

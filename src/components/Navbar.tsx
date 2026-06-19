@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <a href="/" className="navbar-logo">
-        <span className="logo-icon">⬡</span>
-        <span className="logo-text">PrintedTCG Labs</span>
-      </a>
+  <img src="/favicon.svg" alt="PrintedTCG Labs" className="navbar-logo-img" />
+  <span className="logo-text">PrintedTCG Labs</span>
+</a>
       <div className="navbar-links">
         <a href="#products">Shop</a>
         <a href="#about">About</a>

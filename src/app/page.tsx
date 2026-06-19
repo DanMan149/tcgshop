@@ -92,13 +92,22 @@ export default function Home() {
         <h2>Custom order or question?</h2>
         <p>We can print custom colorways, sizes, and designs. Drop us a message.</p>
         <div className="contact-links">
-          <a href="https://wa.me/923158560713" className="contact-chip" target="_blank" rel="noopener noreferrer">
-            💬 +92 315 8560713
-          </a>
-          <a href="https://instagram.com/printedtcglabs" className="contact-chip" target="_blank" rel="noopener noreferrer">
-            📸 @printedtcglabs
-        </a>
-      </div>
+  <a href="https://wa.me/923185607130" className="contact-chip" target="_blank" rel="noopener noreferrer">
+    <svg className="chip-icon" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.498 14.382c-.301-.15-1.767-.867-2.04-.966-.273-.101-.473-.15-.673.15-.197.295-.771.964-.944 1.162-.175.195-.349.21-.646.075-1.747-.673-3.014-1.798-3.949-3.477-.197-.357.196-.330.609-1.094.07-.135.034-.252-.034-.387-.07-.135-.487-1.165-.685-1.6-.197-.435-.4-.376-.567-.382-.156-.005-.345-.005-.534-.005-.187 0-.49.07-.745.327-.255.255-.99.967-.99 2.353 0 1.388 1.01 2.733 1.146 2.921.135.187 1.937 2.948 4.692 4.025 2.348.93 2.829.748 3.342.701.512-.045 1.654-.677 1.886-1.331.232-.652.232-1.213.163-1.331-.07-.114-.255-.182-.534-.31z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.117 1.522 5.847L0 24l6.305-1.654A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.951a9.93 9.93 0 01-5.085-1.394l-.364-.218-3.74.981.998-3.648-.237-.374A9.957 9.957 0 012.049 12C2.049 6.51 6.51 2.049 12 2.049S21.951 6.51 21.951 12 17.49 21.951 12 21.951z"/>
+    </svg>
+    +92 318 5607130
+  </a>
+  <a href="https://instagram.com/printedtcglabs" className="contact-chip" target="_blank" rel="noopener noreferrer">
+    <svg className="chip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+    </svg>
+    @printedtcglabs
+  </a>
+</div>
       </section>
 
       <footer className="site-footer">

@@ -131,4 +131,4 @@ export const products: Product[] = [
   },
 ];
 
-export const categories = [...new Set(products.map((p) => p.category))];
+export const categories = Array.from(new Set(products.map((p) => p.category)));

@@ -65,10 +65,10 @@ export default function Home() {
       <section className="about-section" id="about">
         <div className="about-inner">
           <div className="about-text">
-            <div className="section-eyebrow">About PokéCraft</div>
+            <div className="section-eyebrow">About PrintedTCG Labs</div>
             <h2>Built by players, for players.</h2>
             <p>
-              We started PokéCraft because the accessories available didn't match our standards.
+              We started PrintedTCG Labs because the accessories available didn't match our standards.
               Every design is tested before it ships to you.
             </p>
             <p>
@@ -95,14 +95,14 @@ export default function Home() {
           <a href="https://wa.me/923158560713" className="contact-chip" target="_blank" rel="noopener noreferrer">
             💬 +92 315 8560713
           </a>
-          <a href="https://instagram.com/pokecraftpk" className="contact-chip" target="_blank" rel="noopener noreferrer">
-            📸 @pokecraftpk
+          <a href="https://instagram.com/printedtcglabs" className="contact-chip" target="_blank" rel="noopener noreferrer">
+            📸 @printedtcglabs
         </a>
       </div>
       </section>
 
       <footer className="site-footer">
-        <span>⬡ PokéCraft Pakistan — {new Date().getFullYear()}</span>
+        <span>⬡ PrintedTCG Labs Pakistan — {new Date().getFullYear()}</span>
         <span>Pokémon is a trademark of Nintendo/Game Freak. We are not affiliated.</span>
       </footer>
     </main>

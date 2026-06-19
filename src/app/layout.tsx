@@ -5,9 +5,9 @@ import CartDrawer from "@/components/CartDrawer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PokéCraft — 3D Printed Pokemon TCG Accessories",
+  title: "PrintedTCG Labs — 3D Printed TCG Accessories",
   description:
-    "Premium 3D printed Pokemon TCG accessories: deck boxes, card stands, binder clips, dice trays, and more. Printed on-demand in Pakistan.",
+    "Premium 3D printed TCG accessories: display stands, ETB cases, slab bumpers, and mailers. Printed on-demand in Pakistan.",
 };
 
 export default function RootLayout({

@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="navbar">
       <a href="/" className="navbar-logo">
         <span className="logo-icon">⬡</span>
-        <span className="logo-text">PokéCraft</span>
+        <span className="logo-text">PrintedTCG Labs</span>
       </a>
       <div className="navbar-links">
         <a href="#products">Shop</a>

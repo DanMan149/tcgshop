@@ -205,7 +205,7 @@ export default function CartDrawer() {
               <div className="bank-row"><span>Account No.</span><strong>089010000321</strong></div>
               <div className="bank-row"><span>IBAN</span><strong>PK38MSHQ00000089010000321</strong></div>
             </div>
-            <p className="confirm-note">Send your payment screenshot on WhatsApp at 0315-8560713 and we'll confirm within 24 hours.</p>
+            <p className="confirm-note">Send your payment screenshot on WhatsApp at 0315-8560713 and we'll confirm your order within 12-24 hours.</p>
             <button className="btn-primary" onClick={handleDone}>
               Done
             </button>

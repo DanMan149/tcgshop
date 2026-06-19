@@ -47,7 +47,7 @@ export const products: Product[] = [
     name: "ETB Display Case Skeleton",
     price: 650,
     category: "ETB Display Case",
-    description: "The frame-only skeleton case for displaying your Elite Trainer Box — acrylic sold separately.",
+    description: "A lightweight skeleton case for displaying your Elite Trainer Box.",
     emoji: "📦",
     image: "/products/etb-case-skeleton.jpg",
   },

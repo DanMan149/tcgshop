@@ -61,31 +61,31 @@ export default function Home() {
         ))}
       </section>
 
-      {/* About */}
-      <section className="about-section" id="about">
-        <div className="about-inner">
-          <div className="about-text">
-            <div className="section-eyebrow">About PrintedTCG Labs</div>
-            <h2>Built by players, for players.</h2>
-            <p>
-              We started PrintedTCG Labs because the accessories available didn't match our standards.
-              Every design is tested before it ships to you.
-            </p>
-            <p>
-              All products are printed on-demand in Karachi, Pakistan using premium PLA+ filament.
-              If you need a custom color or modification, just reach out.
-            </p>
+<section className="about-section" id="about">
+  <div className="about-inner">
+    <div className="about-text">
+      <div className="section-eyebrow">About PrintedTCG Labs</div>
+      <h2>Built by players, for players.</h2>
+      <p>
+        We started PrintedTCG Labs because the accessories available didn't match our standards. Every design is tested before it ships to you.
+      </p>
+      <p>
+        All products are printed on-demand in Karachi, Pakistan using premium PLA+ filament. If you need a custom color or modification, just reach out.
+      </p>
+      <div className="about-grid">
+        {["FDM printed", "PLA+ filament"].map((fact) => (
+          <div key={fact} className="about-fact">
+            <span className="fact-dot" />
+            {fact}
           </div>
-          <div className="about-grid">
-            {["FDM printed", "PLA+ filament"].map((fact) => (
-              <div key={fact} className="about-fact">
-                <span className="fact-dot" />
-                {fact}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </div>
+    <div className="about-image">
+      <img src="/about/about-photo.jpg" alt="3D printing in progress" />
+    </div>
+  </div>
+</section>
 
       {/* Contact */}
       <section className="contact-section" id="contact">
